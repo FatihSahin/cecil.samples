@@ -3,6 +3,8 @@
   <PropertyGroup>
     <ProjectGuid>{5BCF9A30-34A1-4309-BCBC-50C8534D5E84}</ProjectGuid>
     <AssemblyName>Cecil.Samples.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <Import Project="..\Cecil.Samples.settings" />
   <Import Project="..\Cecil.settings" />

@@ -3,6 +3,8 @@
   <PropertyGroup>
     <ProjectGuid>{7C943D35-1F7C-4274-BC80-69605EE78C3D}</ProjectGuid>
     <AssemblyName>ReplaceMethodCall.Sample</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <Import Project="..\..\..\Sample.settings" />
   <ItemGroup>

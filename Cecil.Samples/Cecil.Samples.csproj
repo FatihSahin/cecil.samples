@@ -3,6 +3,8 @@
   <PropertyGroup>
     <ProjectGuid>{41C02560-26B4-435A-9C75-CD585F8A86C4}</ProjectGuid>
     <AssemblyName>Cecil.Samples</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <Import Project="..\Cecil.Samples.settings" />
   <Import Project="..\Cecil.settings" />
@@ -10,6 +12,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
